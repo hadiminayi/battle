@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle.net</title>
+    <link rel="shortcut icon" href="./img/icon/android-icon-36x36.png">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+</head>
+<body class="bg-gray-950">
+    <!-- start web -->
+   <div class="wrapper w-[100%]">
+    <!-- header -->
+    <div class="header w-[100%] bg-gray-950 flex flex-wrap ">
+        <div class="top-header w-[inherit]  flex  items-center flex flex-wrap justify-center lg:pb-[10px] pt-[10px]">
+            <div class="logo w-[100%] h-[inherit] flex justify-center  lg:ps-7 cursor-pointer lg:w-[20%]">
+                <svg class="w-[50%] h-[100%] lg:w-[100%] fill-white "   xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" aria-labelledby="blz-icon-title-battlenet-logo" viewBox="0 0 196 32" part="icon blz-icon"><title id="blz-icon-title-battlenet-logo">Battle.net</title><path fill="#148EFF" stroke="none" d="M26.193 11.848c.895-2.755 1.063-5.267.453-7.17l-.017-.054c-.037-.103-.128-.321-.243-.321-.088 0-.089.146-.084.22l.006.043c.194 1.7-.326 4.124-1.371 6.663-2.143-.973-4.717-1.75-7.573-2.208-2.566-.413-5.023-.504-7.25-.322.264-1.752.919-2.971 1.993-3.229 1.478-.353 3.09.619 4.627 2.388a34.717 34.717 0 0 1 3.032.552c-2.803-5.272-6.562-8.227-9.421-7.136-2.176.83-3.287 3.823-3.155 7.846-2.833.603-5.093 1.713-6.436 3.193l-.037.041c-.072.084-.215.272-.157.372.043.075.17.003.233-.038l.034-.026c1.375-1.018 3.735-1.78 6.456-2.145.229 2.343.843 4.96 1.873 7.662.926 2.429 2.076 4.602 3.348 6.44-1.65.648-3.034.69-3.793-.111-1.046-1.103-1.01-2.985-.246-5.202a34.626 34.626 0 0 1-1.038-2.901c-3.165 5.063-3.844 9.796-1.47 11.727 1.806 1.47 4.955.935 8.372-1.19 1.939 2.152 4.03 3.554 5.983 3.977l.055.012c.108.02.342.05.4-.05.044-.076-.082-.15-.149-.183a3.123 3.123 0 0 1-.04-.017c-1.569-.681-3.409-2.344-5.085-4.518 1.914-1.37 3.874-3.21 5.699-5.454 1.64-2.016 2.947-4.098 3.904-6.119 1.385 1.106 2.113 2.282 1.8 3.34-.433 1.458-2.08 2.368-4.382 2.814a34.57 34.57 0 0 1-1.994 2.35c5.967.21 10.405-1.57 10.89-4.59.37-2.3-1.667-4.759-5.217-6.656m-5.183 6.026c-2.104 2.587-4.727 4.789-7.06 6.062a26.423 26.423 0 0 1-2.248-4.496c-1.188-3.116-1.784-6.489-1.72-9.146a26.42 26.42 0 0 1 5.018.301c3.292.53 6.511 1.7 8.78 3.083a26.4 26.4 0 0 1-2.77 4.196"></path><path stroke="none" d="M75.328 22.603 68.972 9.915a1.858 1.858 0 0 0-1.638-1.002h-3.3c-.685 0-1.32.391-1.638 1.002l-6.307 12.688c-.123.22.048.489.293.489h2.836a.446.446 0 0 0 .415-.244l1.394-2.787h9.362l1.394 2.787c.073.17.22.244.415.244h2.836c.22 0 .367-.269.294-.489M62.42 17.249l2.64-5.304a.381.381 0 0 1 .318-.196h.66c.147 0 .269.073.318.195l2.64 5.305zm133.256-7.994v2.152a.35.35 0 0 1-.343.342h-5.72v12.859a.24.24 0 0 1-.391.195l-2.836-2.42a.99.99 0 0 1-.342-.733v-9.901h-4.596a.696.696 0 0 1-.611-.391l-1.1-2.2c-.049-.123.024-.245.146-.245h15.401c.22 0 .392.171.392.342m-30.68 2.738v2.616h10.438a1.419 1.419 0 0 1 0 2.836h-10.438V19.4c0 .489.415.904.904.904h11.759a.35.35 0 0 1 .342.342V22.8a.368.368 0 0 1-.342.342h-12.712a3.625 3.625 0 0 1-3.618-3.618v-8.776c0-1.003.807-1.81 1.809-1.81h14.521a.35.35 0 0 1 .342.343v2.151a.368.368 0 0 1-.342.342h-12.443c-.147-.024-.22.074-.22.22m-6.747-2.64v12.443c0 1.492-1.736 2.323-2.909 1.345l-10.977-9.314v8.85c0 .244-.195.44-.44.44h-2.762c-.245 0-.465-.196-.465-.44v-12.42c0-1.49 1.736-2.322 2.909-1.344l10.977 9.314v-8.85c0-.244.195-.464.44-.464h2.762c.318 0 .465.22.465.44m-34.2 2.64v2.616h7.285a1.418 1.418 0 0 1 0 2.836h-7.261V19.4c0 .489.416.904.905.904h11.758a.35.35 0 0 1 .342.342V22.8a.35.35 0 0 1-.342.342h-12.712a3.626 3.626 0 0 1-3.618-3.618v-8.776c0-1.003.807-1.81 1.809-1.81h14.521a.35.35 0 0 1 .342.343v2.151a.35.35 0 0 1-.342.342h-12.443c-.147-.024-.244.074-.244.22m-5.183 8.605v2.152a.35.35 0 0 1-.342.342h-10.219a3.626 3.626 0 0 1-3.618-3.618V9.255a.35.35 0 0 1 .343-.342h3.006a.35.35 0 0 1 .343.342v10.097c0 .489.415.904.904.904h9.241c.22 0 .342.171.342.342M102.781 9.255v2.152a.35.35 0 0 1-.343.342h-5.329v12.859a.24.24 0 0 1-.391.195l-2.86-2.445a1.002 1.002 0 0 1-.343-.757v-9.876H90.02a.696.696 0 0 1-.611-.392l-1.1-2.2c-.05-.098.024-.22.17-.22h13.959a.35.35 0 0 1 .343.342m-50.604 6.6c.66-.244 2.005-.88 2.005-2.688 0-3.105-2.298-4.254-5.036-4.254h-10.56c-.148 0-.343.147-.343.342V22.75a.35.35 0 0 0 .342.342h11.881c1.736-.024 4.23-1.002 4.23-4.205.024-2.004-1.785-2.835-2.519-3.031M41.885 11.97c0-.147.098-.22.22-.22h6.503c.684 0 2.176 0 2.176 1.418s-1.516 1.418-2.176 1.418h-6.723zm7.505 8.263h-7.285c-.146 0-.22-.098-.22-.22V17.42h7.53c.733 0 1.907 0 1.907 1.418 0 1.443-1.345 1.394-1.932 1.394M86.548 9.255v2.152a.35.35 0 0 1-.342.342h-4.18v12.859a.24.24 0 0 1-.391.195l-2.86-2.445a.99.99 0 0 1-.343-.733v-9.9h-4.547a.696.696 0 0 1-.61-.392l-1.1-2.2c-.025-.098.048-.22.17-.22h13.861c.147 0 .342.147.342.342"></path><path fill="#148EFF" stroke="none" d="M134.805 16.003c0-.978.782-1.785 1.784-1.785.978 0 1.785.807 1.785 1.785 0 .978-.782 1.785-1.785 1.785a1.778 1.778 0 0 1-1.784-1.785"></path><path stroke="none" d="M192.975 22.187a1.418 1.418 0 1 1-.003-2.837 1.418 1.418 0 0 1 .003 2.837m0-2.613a1.197 1.197 0 1 0-.004 2.398 1.197 1.197 0 0 0 .004-2.4zm.363 2.014-.5-.673h-.173v.673h-.283v-1.634h.586c.425 0 .611.138.611.46a.443.443 0 0 1-.437.477l.545.693-.349.004m-.141-1.376a.67.67 0 0 0-.269-.037h-.263v.542h.263c.251 0 .372-.093.372-.294a.237.237 0 0 0-.103-.212v.002"></path></svg>
+            </div>
+            <div class="meno w-[100%] h-[inherit] lg:w-[80%]   flex justify-center items-center lg:justify-end  lg:px-10 pt-[10px] gap-x-1">
+                <a href="#" class="flex items-center w-[150px] h-[50px] bg-transparent justify-center rounded-md hover:bg-gray-700 transition-all duration-300 ">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" part="icon blz-icon"><path d="m18.06 9.646-.707-.707a.5.5 0 0 0-.707 0L13 12.586V4a1 1 0 1 0-2 0v8.586L7.353 8.939a.5.5 0 0 0-.707 0l-.707.707a.5.5 0 0 0 0 .708l5.707 5.707a.5.5 0 0 0 .707 0l5.708-5.707a.5.5 0 0 0 0-.708Z"></path><path d="M3.5 16a.5.5 0 0 0-.5.5V19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5V19H5v-2.5a.5.5 0 0 0-.5-.5z"></path></svg></div>
+                    <div class="text capitalize text-white">downlod battel.net</div>
+                </a>
+                <a href="#" class="flex justify-center block w-[137px] h-[50px] bg-black text-white items-center gap-x-1 capitalize text-center rounded-md bg-transparent hover:bg-gray-700 transition-all duration-300 ">
+                    <svg xmlns="http://www.w3.org/2000/svg"  class="h-[100%] w-[20%] fill-gray-300" fill="currentColor" viewBox="0 0 24 24" part="icon blz-icon"><path d="M11.104 8.068c-.13.046-.248.118-.527.364-.252.223-.456.591-.543 1.048-.052.27-.27.497-.546.497h-1c-.277 0-.503-.225-.474-.5.103-.955.504-1.895 1.24-2.544.323-.285.676-.57 1.179-.75.482-.171 1.018-.217 1.675-.217 1.407 0 3.022.477 3.67 2.047.624 1.509-.02 3.086-1.447 3.75-.128.06-.302.135-.454.202l-.253.112a3.31 3.31 0 0 0-.47.248.518.518 0 0 0-.15.132c-.003.005-.016.024-.016.09v.953a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-.952c0-.924.5-1.512 1.047-1.881.252-.17.524-.303.762-.411.136-.062.238-.106.335-.148.112-.049.216-.094.356-.159.463-.215.654-.66.442-1.173-.186-.451-.73-.81-1.822-.81-.594 0-.853.048-1.004.102ZM11 16.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"></path><path d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10m-2 0a8 8 0 1 0-16 0 8 8 0 0 0 16 0"></path></svg>support</a>
+                <button class="w-[137px] h-[50px] relative bg-black text-white flex items-center flex justify-center px-4 rounded-md items-center capitalize gap-x-1 bg-transparent hover:bg-gray-700 transition-all duration-300 group">
+                    <svg class="h-[100%] w-[25%] fill-gray-300" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" part="icon blz-icon"><path d="M15.75 9.75a3.733 3.733 0 0 1-1.433 2.949A3.734 3.734 0 0 1 12 13.5a3.734 3.734 0 0 1-3.023-1.53 3.75 3.75 0 1 1 6.773-2.22m-5.5 0a1.75 1.75 0 1 0 3.5 0 1.75 1.75 0 0 0-3.5 0"></path><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10m5.047-4.73c.148.193.28.393.393.595A7.972 7.972 0 0 1 12 20a7.972 7.972 0 0 1-5.445-2.139l.005.005c.114-.202.245-.403.393-.596.442-.575.92-.943 1.36-1.13a7.366 7.366 0 0 0 3.687.992c1.34 0 2.594-.364 3.687-.993.44.188.919.556 1.36 1.13Zm-8.835-3.194c-1.188.268-2.237 1.115-2.99 2.172H5.22a8 8 0 1 1 13.56 0c-.755-1.056-1.804-1.904-2.992-2.172a3.627 3.627 0 0 0-.487-.075c-.947.715-2.082 1.131-3.3 1.131-1.22 0-2.355-.416-3.302-1.131-.164.014-.327.04-.487.075Z"></path></svg>account
+                <div class="lg:open hidden top-[50px] bg-gray-950 w-[300px] right-[10px] z-10 group-hover:block lg:hidden lg:group-hover:block lg:w-[200px] flex-wrap  lg:h-[300px]  lg:bg-gray-900 lg:z-10 absolute lg:top-[50px] rounded-md transition-all duration-300 flex ">
+                    <a href="#" class="w-[80%] h-[40px] bg-blue-700 ml-5 hover:bg-blue-500 transition-all duration-300 capitalize block mt-[20px] leading-[40px] text-[20px] font-bold rounded-md ml-[30px] lg:ml-[20px]">login</a>
+                    <h4 class="capitalize w-[100%] hover:bg-gray-700 leading-[50px] transition-all duration-300">
+                        account setting</h4>
+                    <h4 class="capitalize w-[100%] hover:bg-gray-700 leading-[50px] transition-all duration-300">wish list</h4>
+                    <h4 class="capitalize w-[100%] hover:bg-gray-700 leading-[50px] transition-all duration-300">redeem cod</h4>
+                    <h4 class="capitalize w-[100%] hover:bg-gray-700 leading-[50px] transition-all duration-300">chang battletag</h4>
+                </div></button>
+            </div>
+
+        </div>
+        <div class="botom-header w-[100%] pt-[10px] gap-y-[20px] justify-center  flex-wrap lg:pb-[20px] lg:justify-start  flex items-center lg:gap-x-[10px]">
+            <div class="meno w-[100%] lg:w-[946px] flex-wrap  bg-gray-900 rounded-md  lg:ml-[20px]">
+                <nav class="w-[inherit]  flex items-center">
+                    <ul class="flex flex-wrap gap-x-[10px]">
+                        <li class="w-[100%] lg:w-auto"><a href="#" class="capitalize font-bold block text-gray-400 hover:bg-gray-700 transition-all duration-300 rounded-md w-auto p-[16px] relative">warcraft</a></li>
+                        <li class="w-[100%] lg:w-auto"><a href="#" class="capitalize font-bold block text-gray-400 hover:bg-gray-700 transition-all duration-300 rounded-md w-auto p-[16px]">call of duty</a></li>
+                        <li class="w-[100%] lg:w-auto"><a href="#" class="capitalize font-bold block text-gray-400 hover:bg-gray-700 transition-all duration-300 rounded-md w-auto p-[16px]">diablo</a></li>
+                        <li class="w-[100%] lg:w-auto"><a href="#" class="capitalize font-bold block text-gray-400 hover:bg-gray-700 transition-all duration-300 rounded-md w-auto p-[16px]">overwatch</a></li>
+                        <li class="w-[100%] lg:w-auto"><a href="#" class="capitalize font-bold block text-gray-400 hover:bg-gray-700 transition-all duration-300 rounded-md w-auto p-[16px]">starcraft</a></li>
+                        <li class="w-[100%] lg:w-auto"><a href="#" class="capitalize font-bold block text-gray-400 hover:bg-gray-700 transition-all duration-300 rounded-md w-auto p-[16px]">more</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="search w-[100%] h-[56px] lg:w-[344px] ">
+                <input type="text" name="search" placeholder="search shop" class="w-[inherit] h-[inherit] bg-gray-900 placeholder:pl-[20px] rounded-md hover:bg-gray-800 hover:placeholder:text-white transition-all duration-300 placeholder:capitalize placeholder:font-bold focus:text-white " >
+            </div>
+            <div class="button w-[180px] h-[56px]  bg-gray-900 flex rounded-md items-center justify-center hover:bg-gray-800 transition-all duration-300 ">
+                <a href="#" class="text-gray-400 font-bold capitalize">battel.net balance</a>
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+    <!-- arshiv -->
+    <div class="banner w-[100%] px-5 bg-gray-950 pt-3  ">
+        <div class="swiper mySwiper w-full rounded-md h-[500px] w-[100%] lg:h-auto  ">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide h-full w-full"><img class=" h-full w-full" src="./img/img/slider1.jpg" alt=""></div>
+              <div class="swiper-slide"><img class=" h-full w-full" src="./img/img/slider2.webp" alt=""></div>
+              <div class="swiper-slide"><img class=" h-full w-full" src="./img/img/slider3.avif" alt=""></div>
+            </div>
+            
+            <div class="swiper-button-next w-[20px] h-[30px] bg-black rounded-md  "></div>
+            <div class="swiper-button-prev w-[20px] h-[30px] bg-black rounded-md  "></div>
+            <div class="swiper-pagination">
+                
+            </div>
+          </div>
+    </div>
+    <div class="content1 w-[100%] pt-[20px] gap-x-2 bg-gray-950 w-[100%]">
+       <h2 class="text-white font-bold w-[100%] pl-[20px] text-2xl">New content for you
+    </h2>
+    <div class="products w-[100%] flex flex-wrap pt-[30px] justify-center gap-x-2 ">
+        <div class="w-[730px]  bg-gray-900 lg:pb-[20px] hover:bg-gray-800 transition-all duration-300">
+            <img src="./img/img/content1-1.avif" alt="">
+            <h3 class="w-[100%] text-2xl text-center font-bold text-white lg:text-start pl-[30px]">World of Warcraft®: The War </h3>
+            <p class="w-[100%] text-center text-yellow-500 lg:text-start pl-[30px]">Includes the critically-acclaimed D</p>
+            <p class="w-[100%] text-center text-gray-500 lg:text-start pl-[30px]">Massively Multiplayer RPG</p>
+            <h3 class="w-[100%] text-center text-2xl text-white font-bold lg:text-start pl-[30px] pt-[30px] capitalize">from $49.99</h3>
+        </div>
+        <div class="w-[730px]  bg-gray-900 lg:pb-[20px] hover:bg-gray-800 transition-all duration-300">
+            <img src="./img/img/content2-2.avif" alt="">
+             <h3 class="w-[100%] text-2xl text-center font-bold text-white lg:text-start pl-[30px]">Call of Duty®: Modern Warfare® III - Vault Edition </h3>
+            <p class="w-[100%] text-center text-yellow-500 lg:text-start pl-[30px]">Purchase Now and get ready for Season 1</p>
+            <p class="w-[100%] text-center text-gray-500 lg:text-start pl-[30px]">Action Shooter</p>
+            <h3 class="w-[100%] text-center text-2xl text-white font-bold lg:text-start pl-[30px] pt-[30px]">$99.99</h3>
+        </div>
+        <div class="w-[100%] pt-[50px] flex justify-center gap-x-[20px] flex-wrap">
+        <div class="w-[484px]  bg-gray-900 hover:bg-gray-800 transition-all duration-300">
+            <img src="./img/img/pro1.avif" alt="">
+            <h3 class="pt-[30px] pl-[30px] text-white text-[25px] font-bold">Warcraft Rumble™</h3>
+            <p class="pt-[5px] pl-[30px] text-yellow-500" >Available Now </p>
+            <p class="pt-[5px] pl-[30px] text-gray-700" >Action Strategy</p>
+            <p class="pt-[30px] pl-[30px] text-white font-bold">Download Now</p>
+        </div>
+        <div class="w-[484px]  bg-gray-900 hover:bg-gray-800 transition-all duration-300">
+            <img src="./img/img/pro2.avif" alt="">
+            <h3 class="pt-[30px] pl-[30px] text-white text-[25px] font-bold">Blazing Epic Upgrade</h3>
+            <p class="pt-[5px] pl-[30px] text-yellow-500" >Ignite your journey with a haul of hot new items! Cataclysm Classic will be INCLUDED with your WoW Subscription once the game launches</p>
+            <p class="pt-[5px] pl-[30px] text-gray-700" >Game Upgrades</p>
+            <p class="pt-[30px] pl-[30px] text-white font-bold">$79.99</p>
+        </div>
+        <div class="w-[484px] bg-gray-900 hover:bg-gray-800 transition-all duration-300">
+            <img src="./img/img/pro3.avif" alt="">
+            <h3 class="pt-[30px] pl-[30px] text-white text-[25px] font-bold">Badlands Catch-Up Packs Bundle</h3>
+            <p class="pt-[5px] pl-[30px] text-yellow-500" >Available through December 4, 2023 </p>
+            <p class="pt-[5px] pl-[30px] text-gray-700" >Card Packs</p>
+            <p class="pt-[30px] pl-[30px] text-white font-bold">$19.99</p>
+        </div>
+    </div>
+        
+    </div>
+    </div>
+    <!-- end arshiv -->
+    <!-- product -->
+    <div class="rom w-[100%] pt-[50px] ">
+        <h2 class="w-[100%] pl-[20px] font-bold text-white text-[25px]">Recommended</h2>
+        <div class="w-[100%] mt-[20px] flex flex-wrap justify-center gap-x-[20px] gap-y-[20px]">
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom1.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom2.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom3.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom4.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom5.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom6.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img class="h-[155px] w-[100%] object-cover" src="./img/img/rom7.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom8.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom9.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom10.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="rom2 w-[100%] pt-[50px] ">
+        <h2 class="w-[100%] pl-[20px] font-bold text-white text-[25px]">Featured</h2>
+        <div class="w-[100%] mt-[20px] flex flex-wrap justify-center gap-x-[20px] gap-y-[20px]">
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom1.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom2.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom3.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom4.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom5.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom6.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img class="h-[155px] w-[100%] object-cover" src="./img/img/rom7.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom8.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom9.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom10.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="rom3 w-[100%]  pt-[50px] ">
+        <h2 class="w-[100%] pl-[20px] font-bold text-white text-[25px]">Trending Now
+        </h2>
+        <div class="w-[100%] mt-[20px] flex flex-wrap justify-center gap-x-[20px] gap-y-[20px]">
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom1.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom2.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom3.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom4.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom5.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom6.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img class="h-[155px] w-[100%] object-cover" src="./img/img/rom7.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom8.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom9.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom10.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="rom4 w-[100%] pt-[50px] ">
+        <h2 class="w-[100%] pl-[20px] font-bold text-white text-[25px]">Most Gifted
+        </h2>
+        <div class="w-[100%] mt-[20px] flex flex-wrap justify-center gap-x-[20px] gap-y-[20px]">
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom1.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom2.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom3.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom4.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom5.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom6.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img class="h-[155px] w-[100%] object-cover" src="./img/img/rom7.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom8.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom9.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+            <div class="w-[275px] h-[480px] bg-gray-900">
+                <img src="./img/img/rom10.avif" alt="">
+                <h3 class="text-white font-bold text-[20px] pl-[20px]">World of Warcraft®: The War Within™</h3>
+                <p class="text-yellow-500 pl-[20px]">Includes the critically-acclaimed Dragonflight expansion.</p>
+                <p class="pl-[20px] text-white">Massively Multiplayer RPG</p>
+                <p class="mt-[50px] pl-[20px] text-white font-bold">From $49.99</p>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- end product -->
+    <!-- downlode -->
+<div class="downlod w-[100%] box-border bg-[url('/img/img/bg10.avif')] bg-center bg-cover mt-[50px] shadow-sm shadow-gray-300 flex flex-wrap pt-[80px] pb-[80px] pl-[40px] pr-[40px]">
+        <div class="img w-[50%]">
+            <img src="./img/img/products img.avif" alt="">
+        </div>
+        <div class="text w-[50%]">
+            <h2 class="w-[100%] font-bold text-[50px] text-white text-center ">Dive into adventure
+            </h2>
+            <p class="w-[100%] text-center text-gray-500 text-[20px] ">Download Battle.net and join a community of millions.
+            </p>
+            <div class="buton w-[100%] flex flex-wrap mt-[50px] gap-x-10 justify-center">
+                <button class="w-[362px] h-[72px] bg-blue-500 text-white capitalize text-[25px] font-bold rounded-md hover:border hover:border-solid hover:border-white transition-all duration-300">downlod for windows</button>
+                <button class="w-[190px] h-[72px] text-white font-bold text-[25px] bg-gray-800 rounded-md capitalize hover:border hover:border-solid hover:border-white transition-all duration-300">learn more</button>
+                <div class="flex mt-[70px] flex-wrap gap-x-[5px]">
+                    <p class="text-white font-bold">Also available for</p>
+                    <a href="#" class="text-blue-500 capitalize font-bold underline">mac</a>
+                    <p class="text-white font-bold">and</p>
+                    <a href="#" class="text-blue-500 font-bold underline">mobile</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- end downlod -->
+    <!-- footer -->
+    <footer class="w-[100%] h-[580px] bg-gray-950 pt-[100px]">
+        <div class="flex w-[100%] justify-center items-center gap-x-[10px]">
+            
+<svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path opacity="1" fill="#1E3050" d="M57.7 193l9.4 16.4c8.3 14.5 21.9 25.2 38 29.8L163 255.7c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6c16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2c-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5c4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5 .3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3C163.1 48 84.4 108.9 57.7 193zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/></svg>
+<label for="lan" class="block text-white capitalize  text-[20px]">english(us)</label>
+        </div>
+        <div class="{100%} flex flex-wrap justify-center mt-[20px] text-white">
+            <svg class="w-[400px]" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" aria-labelledby="blz-icon-title-battlenet-logo" viewBox="0 0 196 32" part="icon blz-icon"><title id="blz-icon-title-battlenet-logo">Battle.net</title><path fill="#148EFF" stroke="none" d="M26.193 11.848c.895-2.755 1.063-5.267.453-7.17l-.017-.054c-.037-.103-.128-.321-.243-.321-.088 0-.089.146-.084.22l.006.043c.194 1.7-.326 4.124-1.371 6.663-2.143-.973-4.717-1.75-7.573-2.208-2.566-.413-5.023-.504-7.25-.322.264-1.752.919-2.971 1.993-3.229 1.478-.353 3.09.619 4.627 2.388a34.717 34.717 0 0 1 3.032.552c-2.803-5.272-6.562-8.227-9.421-7.136-2.176.83-3.287 3.823-3.155 7.846-2.833.603-5.093 1.713-6.436 3.193l-.037.041c-.072.084-.215.272-.157.372.043.075.17.003.233-.038l.034-.026c1.375-1.018 3.735-1.78 6.456-2.145.229 2.343.843 4.96 1.873 7.662.926 2.429 2.076 4.602 3.348 6.44-1.65.648-3.034.69-3.793-.111-1.046-1.103-1.01-2.985-.246-5.202a34.626 34.626 0 0 1-1.038-2.901c-3.165 5.063-3.844 9.796-1.47 11.727 1.806 1.47 4.955.935 8.372-1.19 1.939 2.152 4.03 3.554 5.983 3.977l.055.012c.108.02.342.05.4-.05.044-.076-.082-.15-.149-.183a3.123 3.123 0 0 1-.04-.017c-1.569-.681-3.409-2.344-5.085-4.518 1.914-1.37 3.874-3.21 5.699-5.454 1.64-2.016 2.947-4.098 3.904-6.119 1.385 1.106 2.113 2.282 1.8 3.34-.433 1.458-2.08 2.368-4.382 2.814a34.57 34.57 0 0 1-1.994 2.35c5.967.21 10.405-1.57 10.89-4.59.37-2.3-1.667-4.759-5.217-6.656m-5.183 6.026c-2.104 2.587-4.727 4.789-7.06 6.062a26.423 26.423 0 0 1-2.248-4.496c-1.188-3.116-1.784-6.489-1.72-9.146a26.42 26.42 0 0 1 5.018.301c3.292.53 6.511 1.7 8.78 3.083a26.4 26.4 0 0 1-2.77 4.196"></path><path stroke="none" d="M75.328 22.603 68.972 9.915a1.858 1.858 0 0 0-1.638-1.002h-3.3c-.685 0-1.32.391-1.638 1.002l-6.307 12.688c-.123.22.048.489.293.489h2.836a.446.446 0 0 0 .415-.244l1.394-2.787h9.362l1.394 2.787c.073.17.22.244.415.244h2.836c.22 0 .367-.269.294-.489M62.42 17.249l2.64-5.304a.381.381 0 0 1 .318-.196h.66c.147 0 .269.073.318.195l2.64 5.305zm133.256-7.994v2.152a.35.35 0 0 1-.343.342h-5.72v12.859a.24.24 0 0 1-.391.195l-2.836-2.42a.99.99 0 0 1-.342-.733v-9.901h-4.596a.696.696 0 0 1-.611-.391l-1.1-2.2c-.049-.123.024-.245.146-.245h15.401c.22 0 .392.171.392.342m-30.68 2.738v2.616h10.438a1.419 1.419 0 0 1 0 2.836h-10.438V19.4c0 .489.415.904.904.904h11.759a.35.35 0 0 1 .342.342V22.8a.368.368 0 0 1-.342.342h-12.712a3.625 3.625 0 0 1-3.618-3.618v-8.776c0-1.003.807-1.81 1.809-1.81h14.521a.35.35 0 0 1 .342.343v2.151a.368.368 0 0 1-.342.342h-12.443c-.147-.024-.22.074-.22.22m-6.747-2.64v12.443c0 1.492-1.736 2.323-2.909 1.345l-10.977-9.314v8.85c0 .244-.195.44-.44.44h-2.762c-.245 0-.465-.196-.465-.44v-12.42c0-1.49 1.736-2.322 2.909-1.344l10.977 9.314v-8.85c0-.244.195-.464.44-.464h2.762c.318 0 .465.22.465.44m-34.2 2.64v2.616h7.285a1.418 1.418 0 0 1 0 2.836h-7.261V19.4c0 .489.416.904.905.904h11.758a.35.35 0 0 1 .342.342V22.8a.35.35 0 0 1-.342.342h-12.712a3.626 3.626 0 0 1-3.618-3.618v-8.776c0-1.003.807-1.81 1.809-1.81h14.521a.35.35 0 0 1 .342.343v2.151a.35.35 0 0 1-.342.342h-12.443c-.147-.024-.244.074-.244.22m-5.183 8.605v2.152a.35.35 0 0 1-.342.342h-10.219a3.626 3.626 0 0 1-3.618-3.618V9.255a.35.35 0 0 1 .343-.342h3.006a.35.35 0 0 1 .343.342v10.097c0 .489.415.904.904.904h9.241c.22 0 .342.171.342.342M102.781 9.255v2.152a.35.35 0 0 1-.343.342h-5.329v12.859a.24.24 0 0 1-.391.195l-2.86-2.445a1.002 1.002 0 0 1-.343-.757v-9.876H90.02a.696.696 0 0 1-.611-.392l-1.1-2.2c-.05-.098.024-.22.17-.22h13.959a.35.35 0 0 1 .343.342m-50.604 6.6c.66-.244 2.005-.88 2.005-2.688 0-3.105-2.298-4.254-5.036-4.254h-10.56c-.148 0-.343.147-.343.342V22.75a.35.35 0 0 0 .342.342h11.881c1.736-.024 4.23-1.002 4.23-4.205.024-2.004-1.785-2.835-2.519-3.031M41.885 11.97c0-.147.098-.22.22-.22h6.503c.684 0 2.176 0 2.176 1.418s-1.516 1.418-2.176 1.418h-6.723zm7.505 8.263h-7.285c-.146 0-.22-.098-.22-.22V17.42h7.53c.733 0 1.907 0 1.907 1.418 0 1.443-1.345 1.394-1.932 1.394M86.548 9.255v2.152a.35.35 0 0 1-.342.342h-4.18v12.859a.24.24 0 0 1-.391.195l-2.86-2.445a.99.99 0 0 1-.343-.733v-9.9h-4.547a.696.696 0 0 1-.61-.392l-1.1-2.2c-.025-.098.048-.22.17-.22h13.861c.147 0 .342.147.342.342"></path><path fill="#148EFF" stroke="none" d="M134.805 16.003c0-.978.782-1.785 1.784-1.785.978 0 1.785.807 1.785 1.785 0 .978-.782 1.785-1.785 1.785a1.778 1.778 0 0 1-1.784-1.785"></path><path stroke="none" d="M192.975 22.187a1.418 1.418 0 1 1-.003-2.837 1.418 1.418 0 0 1 .003 2.837m0-2.613a1.197 1.197 0 1 0-.004 2.398 1.197 1.197 0 0 0 .004-2.4zm.363 2.014-.5-.673h-.173v.673h-.283v-1.634h.586c.425 0 .611.138.611.46a.443.443 0 0 1-.437.477l.545.693-.349.004m-.141-1.376a.67.67 0 0 0-.269-.037h-.263v.542h.263c.251 0 .372-.093.372-.294a.237.237 0 0 0-.103-.212v.002"></path></svg>
+        </div>
+        <div class="flex flex-wrap text-gray-400 w-[100%] justify-center gap-x-[20px] mt-[20px] uppercase">
+            <a href="#">careers</a>
+            <a href="#">about</a>
+            <a href="#">support</a>
+            <a href="#">contact us</a>
+            <a href="#">press</a>
+            <a href="#">api</a>
+        </div>
+        <div class="flex flex-wrap justify-center w-[100%] gap-x-[20px] mt-[20px]">
+            
+<svg  xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path opacity="1" fill="#ffffff" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path opacity="1" fill="#1E3050" d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path opacity="1" fill="#1E3050" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+        </div>
+        <div class="w-[100%] flex flex-wrap gap-x-[5px] justify-center mt-[20px]">
+            <p class="text-white">All games, one app: </p>
+            <a href="#" class="text-blue-500">battle.net desktop app</a>
+        </div>
+        <div class="w-[100%] mt-[20px]">
+            <p class="w-[100%] text-gray-400 text-center">©2023 Blizzard Entertainment, Inc.
+            </p>
+            <p class="text-gray-400 text-center">All trademarks referenced herein are the properties of their respective owners.
+            </p>
+            <div class="flex justify-center gap-x-[7px]">
+                <a href="#" class="text-gray-400 uppercase">privacy   |</a>
+                <a href="#" class="text-gray-400 uppercase">legal   |</a>
+                <a href="#" class="text-gray-400 uppercase">terms   |</a>
+                <a href="#" class="text-gray-400 uppercase">cookie    |</a>
+                <a href="#" class="text-gray-400 uppercase">cookie settings</a>
+            </div>
+        </div>
+
+
+
+    </footer>
+    <!-- end footer -->
+   
+   </div>
+   <!-- end web -->
+
+
+
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+  
+</body>
+</html>
+
+ 
